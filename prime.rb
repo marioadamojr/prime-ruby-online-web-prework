@@ -6,8 +6,7 @@ def prime?(integer)
   scale.each do |x|
     if integer % x == 0
       return false
-    else
-      return true
     end
   end
+  true
 end
